@@ -1,38 +1,49 @@
 :root {
   --yasil: #54d154;
+  --yasil2: #2b9b2b;
+  --yasil3: #207b20;
+  --boz: #b3b3b3;
+  --boz1: #818181;
+  --boz2: #444;
+  --boz3: #333;
 }
 .white-txt {
   color: #fff;
 }
+.black-bg {
+  background-color: #111;
+}
 .grey-txt {
-  color: #b3b3b3;
+  color: var(--boz);
 }
 .grey-txtp {
-  color: #828181;
+  color: var(--boz1);
 }
 .grey-bg {
   background-color: #f2f1f1;
 }
 .grey-bg2 {
-  background-color: #333;
+  background-color: var(--boz3);
 }
 .green-txt {
-  color: #207b20;
+  color: var(--yasil3);
 }
 .green-txtp {
-  color: #2b9b2b;
+  color: var(--yasil2);
 }
 .green-bg {
   background-color: var(--yasil);
 }
+
 .green-btn {
-  background-color: #2b9b2b;
+  background-color: var(--yasil2);
   color: #fff;
   height: 35px;
   width: 180px;
   border-radius: 20px;
   margin-block: 50px;
 }
+
 .category {
   font: 300 0.8rem Montserrat;
   color: #ffffff;
@@ -112,7 +123,7 @@ nav ul li {
 #scroll p {
   background: #ffffffcc;
   display: inline-block;
-  color: #333;
+  color: var(--boz3);
   height: 25px;
   width: 118px;
   padding-top: 3px;
@@ -126,7 +137,7 @@ nav ul li {
   text-transform: uppercase;
 }
 .line {
-  background-color: #444;
+  background-color: var(--boz2);
   width: 45px;
   height: 1px;
   margin: 7px auto;
@@ -156,12 +167,12 @@ nav ul li {
 }
 .box h3 {
   font: bold 1.5rem "Proxima Nova";
-  color: #828181;
+  color: var(--boz1);
   margin: 25px 0;
 }
 .box p {
   font: 300 0.9rem "Montserrat";
-  color: #828181;
+  color: var(--boz1);
   margin-bottom: 25px;
 }
 .box button {
@@ -179,7 +190,7 @@ nav ul li {
 #options button {
   width: 120px;
   height: 30px;
-  color: #2b9b2b;
+  color: var(--yasil2);
   border: 1px solid #999;
 }
 #latestwork {
@@ -195,14 +206,14 @@ nav ul li {
 }
 #options button:hover,
 .active {
-  background-color: #207b20;
+  background-color: var(--yasil3);
   color: #fff !important;
 }
 #gallery,
 #gallery2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
 }
 #gallery2 {
   padding-top: 50px;
@@ -233,7 +244,7 @@ nav ul li {
   text-align: center;
 }
 .post-cont i {
-  color: #828181;
+  color: var(--boz1);
   margin: auto;
   font-size: 1.5rem;
 }
@@ -269,7 +280,7 @@ nav ul li {
 #member hr {
   height: 80px;
   width: 2px;
-  background-color: #333;
+  background-color: var(--boz3);
   margin: auto;
 }
 #member h4 {
@@ -287,7 +298,26 @@ nav ul li {
 }
 .icons i {
   font-size: 1.4rem;
-  color: #444;
+  color: var(--boz2);
+}
+#btn-section {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yasil2);
+}
+.green-btn2 {
+  background-color: #3eba3e;
+  color: #fff;
+  height: 35px;
+  width: 180px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+  text-transform: uppercase;
+  font-family: "Proxima Nova";
+  box-shadow: 2px 2px 5px #333;
 }
 #end1 {
   display: flex;
@@ -319,6 +349,13 @@ nav ul li {
 #end1 button {
   height: 40px;
   margin: 5px;
+}
+footer{
+  height: 30px;
+}
+footer p{
+  text-align: center;
+  padding-top: 5px;
 }
 /* Desktop version */
 @media only screen and (min-width: 768px) {
@@ -363,11 +400,11 @@ nav ul li {
   .container {
     flex-direction: row;
   }
-  #members-container{
+  #members-container {
     flex-direction: row;
     text-align: center;
   }
-  #member img{
+  #member img {
     margin: 20px 60px;
   }
   #end1 {
@@ -378,7 +415,7 @@ nav ul li {
   }
   #about p {
     width: 60%;
-   margin: auto;
+    margin: auto;
   }
 
   #recent {
