@@ -256,12 +256,14 @@ nav ul li {
 }
 #members-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 #member img {
   border-radius: 50%;
   height: 100px;
-  margin-block: 60px 10px;
+  margin: 10px;
   width: 100px;
 }
 #member hr {
@@ -360,6 +362,13 @@ nav ul li {
   }
   .container {
     flex-direction: row;
+  }
+  #members-container{
+    flex-direction: row;
+    text-align: center;
+  }
+  #member img{
+    margin: 20px 60px;
   }
   #end1 {
     flex-direction: row;
