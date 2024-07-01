@@ -1,0 +1,381 @@
+:root {
+  --yasil: #54d154;
+}
+.white-txt {
+  color: #fff;
+}
+.grey-txt {
+  color: #b3b3b3;
+}
+.grey-txtp {
+  color: #828181;
+}
+.grey-bg {
+  background-color: #f2f1f1;
+}
+.grey-bg2 {
+  background-color: #333;
+}
+.green-txt {
+  color: #207b20;
+}
+.green-txtp {
+  color: #2b9b2b;
+}
+.green-bg {
+  background-color: var(--yasil);
+}
+.green-btn {
+  background-color: #2b9b2b;
+  color: #fff;
+  height: 35px;
+  width: 180px;
+  border-radius: 20px;
+  margin-block: 50px;
+}
+.category {
+  font: 300 0.8rem Montserrat;
+  color: #ffffff;
+  width: 90px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 2px;
+  margin-top: 6px;
+}
+.magazine {
+  background-color: var(--yasil);
+}
+.design {
+  background-color: #ffba00;
+}
+.photography {
+  background-color: #089cea;
+}
+.book {
+  background-color: #f34c03;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background: url("../img/headerbg.jpg") center/cover;
+  color: #fff;
+  text-align: center;
+}
+nav {
+  padding: 20px;
+}
+nav ul li {
+  padding: 20px;
+  color: #ffffff;
+  font-family: "Proxima Nova ";
+}
+.current {
+  border-bottom: 5px solid var(--yasil);
+  font-family: "Proxima Nova bold";
+}
+
+#search {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+#search input,
+#search button {
+  height: 27px;
+  background: #ffffffcc;
+  padding: 6px 15px;
+}
+#search input {
+  border-radius: 15px 0 0 15px;
+}
+#search button {
+  border-radius: 0 15px 15px 0;
+}
+#search button img {
+  height: 14px;
+}
+#title h1 {
+  font: 700 1.8rem Montserrat;
+  padding-bottom: 30px;
+}
+#title a {
+  background-color: var(--yasil);
+  display: inline-block;
+  width: 208px;
+  height: 40px;
+  padding-top: 10px;
+  border-radius: 40px;
+}
+#scroll p {
+  background: #ffffffcc;
+  display: inline-block;
+  color: #333;
+  height: 25px;
+  width: 118px;
+  padding-top: 3px;
+  margin-bottom: 15px;
+  border-radius: 40px;
+}
+.heading-part h2 {
+  font: 300 1.25rem "Montserrat";
+  text-align: center;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+.line {
+  background-color: #444;
+  width: 45px;
+  height: 1px;
+  margin: 7px auto;
+}
+.heading-part p {
+  font: 1rem;
+  font-family: "Myriad Pro";
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+#whatwedo i {
+  color: var(--yasil);
+  font-size: 5rem;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #54d15450;
+}
+.box {
+  padding: 50px;
+}
+.box h3 {
+  font: bold 1.5rem "Proxima Nova";
+  color: #828181;
+  margin: 25px 0;
+}
+.box p {
+  font: 300 0.9rem "Montserrat";
+  color: #828181;
+  margin-bottom: 25px;
+}
+.box button {
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: var(--yasil);
+  color: #fff;
+}
+#options {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+#options button {
+  width: 120px;
+  height: 30px;
+  color: #2b9b2b;
+  border: 1px solid #999;
+}
+#latestwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#options button:first-of-type {
+  border-radius: 20px 0 0 20px;
+}
+#options button:last-of-type {
+  border-radius: 0 20px 20px 0;
+}
+#options button:hover,
+.active {
+  background-color: #207b20;
+  color: #fff !important;
+}
+#gallery,
+#gallery2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#gallery2 {
+  padding-top: 50px;
+}
+#gallery img {
+  width: 160px;
+  height: 160px;
+  padding: 15px;
+}
+#gallery2 img {
+  width: 150px;
+  height: 50px;
+  margin: 40px 60px;
+}
+#post {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.post-cont {
+  display: flex;
+  width: 70%;
+}
+.post-cont h4 {
+  padding-inline: 60px;
+  font: 1rem "Proxima Nova";
+  text-align: center;
+}
+.post-cont i {
+  color: #828181;
+  margin: auto;
+  font-size: 1.5rem;
+}
+#post img {
+  height: 50px;
+  width: 50px;
+}
+.author {
+  padding-top: 40px;
+  display: flex;
+}
+.author img {
+  border: 1px solid #999;
+  padding: 3px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.username {
+  margin: auto;
+}
+#members-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+#member img {
+  border-radius: 50%;
+  height: 100px;
+  margin-block: 60px 10px;
+  width: 100px;
+}
+#member hr {
+  height: 80px;
+  width: 2px;
+  background-color: #333;
+  margin: auto;
+}
+#member h4 {
+  font: 1rem "Proxima Nova";
+  padding: 10px;
+}
+.icons {
+  text-align: center;
+  background-color: #ffffff82;
+  border-radius: 20px;
+  width: 90px;
+  height: 30px;
+  padding-top: 4px;
+  margin: 30px auto;
+}
+.icons i {
+  font-size: 1.4rem;
+  color: #444;
+}
+#end1 {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#recent img {
+  height: 60px;
+  width: 70px;
+}
+.update {
+  display: flex;
+  padding: 5px 20px;
+}
+.title {
+  padding-left: 10px;
+}
+#end1 form {
+  display: flex;
+  flex-direction: column;
+}
+#end1 input {
+  margin: 5px;
+  background-color: #82818171;
+  height: 40px;
+}
+#end1 button {
+  height: 40px;
+  margin: 5px;
+}
+/* Desktop version */
+@media only screen and (min-width: 768px) {
+  nav {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li {
+    padding: 5px;
+  }
+  #logo {
+    padding-top: 5px;
+  }
+  #menu {
+    display: flex;
+    order: -1;
+  }
+  #menu li {
+    padding-left: 25px;
+  }
+  /* nav ul li {
+    margin: 0 px 0 0;
+  } */
+  .current {
+    border-top: 5px solid var(--yasil);
+    border-bottom: 0;
+  }
+
+  #title h1 {
+    font: 700 3.4rem Montserrat;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  #title a {
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: "Proxima Nova";
+    text-align: center;
+  }
+  .container {
+    flex-direction: row;
+  }
+  #end1 {
+    flex-direction: row;
+  }
+  #about {
+    width: 33.3%;
+  }
+  #about p {
+    width: 60%;
+   margin: auto;
+  }
+
+  #recent {
+    width: 33.3%;
+  }
+  #contact {
+    width: 33.3%;
+  }
+}
